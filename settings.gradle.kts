@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        google()
+        maven { url = uri("https://maven.google.com") }
         mavenCentral()
     }
 }
@@ -8,7 +8,7 @@ buildscript {
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        google()
+        maven { url = uri("https://maven.google.com") }
         mavenCentral()
     }
 }
@@ -18,7 +18,7 @@ include(":app")
 
 allprojects {
     repositories {
-        google()
+        maven { url = uri("https://maven.google.com") }
         mavenCentral()
     }
 }
