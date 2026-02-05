@@ -1,8 +1,6 @@
-plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.kapt")
-}
+apply(plugin = "com.android.application")
+apply(plugin = "kotlin-android")
+apply(plugin = "kotlin-kapt")
 
 android {
     compileSdkVersion(31)
