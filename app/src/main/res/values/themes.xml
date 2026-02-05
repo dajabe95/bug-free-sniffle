@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.DogFoodScanner" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+</resources>

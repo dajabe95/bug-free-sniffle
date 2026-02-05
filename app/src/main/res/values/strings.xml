@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DogFoodScanner</string>
+    <string name="scan_placeholder">Bereit zum Scannen. Kamera-Berechtigung erforderlich.</string>
+</resources>
