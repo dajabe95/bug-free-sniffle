@@ -1,10 +1,3 @@
-buildscript {
-    repositories {
-        maven { url = uri("https://maven.google.com") }
-        mavenCentral()
-    }
-}
-
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -15,6 +8,13 @@ pluginManagement {
 
 rootProject.name = "DogFoodScanner"
 include(":app")
+
+buildscript {
+    repositories {
+        maven { url = uri("https://maven.google.com") }
+        mavenCentral()
+    }
+}
 
 allprojects {
     repositories {
