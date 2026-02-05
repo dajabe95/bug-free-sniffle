@@ -1,3 +1,10 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -6,13 +13,12 @@ pluginManagement {
     }
 }
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+rootProject.name = "DogFoodScanner"
+include(":app")
+
+allprojects {
     repositories {
         google()
         mavenCentral()
     }
 }
-
-rootProject.name = "DogFoodScanner"
-include(":app")
