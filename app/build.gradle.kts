@@ -5,12 +5,13 @@ plugins {
 }
 
 android {
-    compileSdk = 31
+    compileSdkVersion(31)
+    buildToolsVersion("30.0.2")
 
     defaultConfig {
         applicationId = "com.example.dogfoodscanner"
-        minSdk = 26
-        targetSdk = 31
+        minSdkVersion(26)
+        targetSdkVersion(31)
         versionCode = 1
         versionName = "1.0"
     }
