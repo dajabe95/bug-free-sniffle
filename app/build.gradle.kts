@@ -5,7 +5,6 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dogfoodscanner"
     compileSdk = 31
 
     defaultConfig {
@@ -17,7 +16,7 @@ android {
     }
 
     buildTypes {
-        release {
+        getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
