@@ -3,3 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.9.22" apply false
     id("org.jetbrains.kotlin.kapt") version "1.9.22" apply false
 }
+
+allprojects {
+    repositories {
+        maven { url = uri("https://maven.google.com") }
+        mavenCentral()
+    }
+}

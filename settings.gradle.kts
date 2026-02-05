@@ -15,10 +15,3 @@ buildscript {
         mavenCentral()
     }
 }
-
-allprojects {
-    repositories {
-        maven { url = uri("https://maven.google.com") }
-        mavenCentral()
-    }
-}
