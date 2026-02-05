@@ -8,10 +8,3 @@ pluginManagement {
 
 rootProject.name = "DogFoodScanner"
 include(":app")
-
-buildscript {
-    repositories {
-        maven { url = uri("https://maven.google.com") }
-        mavenCentral()
-    }
-}

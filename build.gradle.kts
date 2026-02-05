@@ -4,6 +4,13 @@ plugins {
     id("org.jetbrains.kotlin.kapt") version "1.9.22" apply false
 }
 
+buildscript {
+    repositories {
+        maven { url = uri("https://maven.google.com") }
+        mavenCentral()
+    }
+}
+
 allprojects {
     repositories {
         maven { url = uri("https://maven.google.com") }
